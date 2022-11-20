@@ -1,0 +1,31 @@
+.info-wrapper{
+   margin-top: 20px;
+   border:2px solid #fff;
+   border-radius:10px;
+   padding: 20px 100px;
+   color:#fff;
+   text-transform: uppercase;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+.info-wrapper > p{
+   padding: 40px 0;
+   font-size: 30px;
+}
+
+.incorrect{
+   color:rgb(255, 0, 149);
+   margin-left: 20px;
+   border-bottom: 1px solid rgb(255, 0, 149);
+}
+
+.first-value,.second-value{
+   display: flex;
+}
+
+.correct{
+   color:rgb(0, 255, 170);
+   margin-left: 20px;
+   border-bottom: 1px solid rgb(0, 255, 170);
+}

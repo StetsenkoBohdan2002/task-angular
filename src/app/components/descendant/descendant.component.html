@@ -1,0 +1,20 @@
+<div class="info-wrapper">
+   <p class="list">Поточний список: [ {{array}} ]</p>
+   <p class="first-value">Середнє арифметичне:
+      <span *ngIf="!checkFirstValue(); else firstAlt">
+         <p class="correct">{{firstValue}}</p>
+      </span>
+      <ng-template #firstAlt>
+         <p class="incorrect">Некоректні дані</p>
+      </ng-template>
+   </p>
+   <p class="second-value">середнє геометричне модулів чисел:
+      <span *ngIf="!checkSecondValue(); else secondAlt">
+         <p class="correct">{{secondValue}}</p>
+
+      </span>
+      <ng-template #secondAlt>
+         <p class="incorrect">Некоректні дані</p>
+      </ng-template>
+   </p>
+</div>
